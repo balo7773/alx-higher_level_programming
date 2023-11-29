@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def fizzbuzz():
     '''fizzbuzz func'''
     for x in range(1, 101):

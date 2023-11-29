@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def uppercase(str):
     '''a function to change str to uppercase'''
     new_str = ""

@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def print_last_digit(number):
     '''func to print last digit'''
     if number < 0:
