@@ -4,6 +4,7 @@ for y in range(0, 10):
         if y == x:
             continue
         if y < x and y != 8:
-            print(f"{y}{x}", end=", ")
+            print("{}{}".format(y, x), end=", ")
         elif y == 8 and x == 9:
-            print(f"{y}{x}")
+            print("{}{}".format(y, x))
+
