@@ -13,10 +13,11 @@ class Square:
     
     @property
     def size(self):
-        """getting attribute without init func"""
+        """getting attribute without init func
+        """
         return self.__size
     
-    @property.setter
+    @size.setter
     def size(self, value):
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
