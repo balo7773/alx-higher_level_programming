@@ -1,4 +1,4 @@
-#!/usr/bin/node
+#!/usr/bin/ venv node
 const myObject = {
   type: 'object',
   value: 12
